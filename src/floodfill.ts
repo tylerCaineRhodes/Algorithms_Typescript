@@ -1,4 +1,4 @@
- export const floodFill = (image: number[][], sr: number, sc: number, newColor: number): number[][] => {
+export const floodFill = (image: number[][], sr: number, sc: number, newColor: number): number[][] => {
   if (image[sr][sc] === newColor) return image;
 
   let oldColor = image[sr][sc];
