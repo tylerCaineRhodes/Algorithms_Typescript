@@ -1,4 +1,4 @@
-const { exampleFunc } = require ('../src/example.ts');
+const { exampleFunc } = require('../src/example.ts');
 
 describe('exampleFunc', () => {
   it('returns true if colinear', () => {
