@@ -13,10 +13,11 @@ function subarraySort(array: number[]) {
     return [-1, -1];
   }
   let leftIndex = 0;
+  let rightIndex = array.length - 1;
+  
   while (min >= array[leftIndex]) {
     leftIndex++;
   }
-  let rightIndex = array.length - 1;
   while (max <= array[rightIndex]) {
     rightIndex--;
   }
